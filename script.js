@@ -1,7 +1,7 @@
 //your JS code here. If required.
-let value =0;
+let counter =0;
 function increment(){
-	alert(value);
-	value++;
-	document.querySelector("#counter").innerText = value;
+	alert(counter);
+	counter++;
+	document.querySelector("#counter").innerText = counter;
 }
